@@ -7,7 +7,6 @@ use App\Models\CampGear;
 
 class CampGearController extends Controller
 {
-    // Halaman Daftar Produk
     public function index()
     {
         $gears = CampGear::all();
